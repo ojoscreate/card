@@ -1,27 +1,43 @@
 body{
     margin: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  
-  
-   
+    align-content: center;
 }
+
 .image{
     width: 200px;
+    border-radius:10% ;
 }
 
 .main{
     display: flex;
+    flex-wrap: nowrap;
     width: 400px;
     height: 200px;
     justify-content: space-between;
     text-align: center;
-     padding: 20px;
+    padding: 20px;
     margin: 0px auto;
     text-align: center;
     background: #c8b6ff;
     border-radius: 15px;
     border-bottom: 6px #ff595e solid;
 }
+
+.main:hover{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 450px;
+    height:250px;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 0px auto;
+    text-align: center;
+    background: #c8b6ff;
+    border-radius: 15px;
+    border-bottom: 8px #ff595e solid;
+}
+
 .text{
     padding: 0px 10px 60px;
  
@@ -56,3 +72,10 @@ Final challenge:
 Download the code to your local computer and place it
 in a folder called "business-card"
 */
+}
+
+.text:hover{
+    padding: 0px 12px 62px;
+    text-align: center;
+    margin: auto;
+}
